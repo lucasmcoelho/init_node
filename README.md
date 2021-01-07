@@ -1,2 +1,12 @@
 # init_node
-repositório contém uma estrutura mínima para inicialização de projeto NodeJs, utilizando Express, Typeorm e Sqlite3.
+Repositório contém uma estrutura mínima para inicialização de projeto NodeJs.
+#### **Utilizando**
+> Express,
+> Typeorm,
+> Sqlite3
+
+Comandos de inicio server
+  > yarn start 
+
+Comando criar migration
+  >  yarn typeorm migration:create -n NOME
