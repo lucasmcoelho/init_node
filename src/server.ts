@@ -6,4 +6,4 @@ const app = express();
 app.get("/", (req, res, next) => {
   res.json({ message: "LOGIN -> olá server está online" });
 });
-app.listen(3000);
+app.listen(3001);
