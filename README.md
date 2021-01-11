@@ -1,7 +1,7 @@
 <div align="center">
 <h1><strong>💻 Init Server Node Js 💻</strong></h1>
 
-<h2> Serviço para realização de notificação para o aplicativo INHD Beer, esse serviço é responsavel por enviar as notificações as usuario mobile.</h2>
+<h2> Diretorio com as pre configurações de um servidor node Js.</h2>
 
 <h3>
   <a href="https://nodejs.org/en/">🔗 Sever Nodejs </a>
