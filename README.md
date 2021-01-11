@@ -4,7 +4,7 @@
 <h2> Diretorio com as pre configurações de um servidor node Js.</h2>
 
 <h3>
-  <a href="https://nodejs.org/en/">🔗 Sever Nodejs </a>
+  <a href="https://nodejs.org/en/">🔗 Server Nodejs </a>
 </h3>
 
 </div>
