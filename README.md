@@ -22,6 +22,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br>
 
+[![Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=<COLOR>&style=flat-square)](https://github.com/ander5onPereira/init_node/blob/main/LICENSE)
 ![Badge](https://img.shields.io/static/v1?label=express&message=^4.17.1&color=<COLOR>&style=flat-square)
 ![Badge](https://img.shields.io/static/v1?label=typeorm&message=^0.2.29&color=orange&style=flat-square)
 ![Badge](https://img.shields.io/static/v1?label=pg&message=^8.5.1&color=blue&style=flat-square)
@@ -34,6 +35,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </h4>
 </div>
 <br>
+
+## Requisito
+
+- Node Js
 
 ## Clone este repositório
 
