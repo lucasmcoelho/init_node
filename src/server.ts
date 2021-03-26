@@ -1,7 +1,4 @@
 import express from "express";
-/* chamada serviço */
-// import httpProxy from "express-http-proxy";
-/* Conection com o banco de dados */
 // import "./database/conection";
 import morgan from "morgan";
 import helmet from "helmet";
@@ -12,8 +9,7 @@ app.use(morgan("dev"));
 app.use(helmet());
 app.use(cookieParser());
 app.use(express.json());
-/* chamada serviço */
-// app.use("/user", httpProxy("http://localhost:3001", { timeout: 3000 }));
+
 
 app.get("/", (req, res, next) => {
   res.json({ message: "LOGIN -> olá server está online" });
