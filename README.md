@@ -42,7 +42,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Clone este repositório
 
-> $ git clone <https://github.com/ander5onPereira/init_node.git> > <br>
+> $ git clone <https://github.com/lucasmcoelho/init_node.git> > <br>
 
 ## Acesse a pasta do projeto no terminal/cmd
 
