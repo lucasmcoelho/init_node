@@ -12,11 +12,11 @@ app.use(express.json());
 
 
 app.get("/", (req, res, next) => {
-  res.json({ message: "LOGIN -> olá server está online" });
+  res.json({ message: "Port 3889 for Android -> Test SUCCESS" });
 });
-app.listen(3001, () => {
+app.listen(3889, () => {
   console.clear();
   console.log("           |-----------|  INIT_NODE  |------------|");
-  console.log("           | INIT_NODE rodando na 🚪 porta 3001  |");
+  console.log("           | INIT_NODE rodando na 🚪 3889  |");
   console.log("           |-----------|  INIT_NODE  |------------|");
 });

@@ -13,10 +13,13 @@
     "morgan": "^1.10.0",
     "pg": "^8.5.1",
     "sqlite3": "^5.0.0",
+    "ts-node": "^10.4.0",
     "typeorm": "^0.2.29"
   },
   "scripts": {
-    "start": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
+    "start": "NODE_PATH=./dist node dist/index.js",
+    "build": "tsc -p .",
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {
